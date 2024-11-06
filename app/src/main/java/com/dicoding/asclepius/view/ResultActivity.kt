@@ -12,6 +12,7 @@ class ResultActivity : AppCompatActivity() {
     private lateinit var binding: ActivityResultBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        // proses onCreate
         super.onCreate(savedInstanceState)
         binding = ActivityResultBinding.inflate(layoutInflater)
         setContentView(binding.root)
